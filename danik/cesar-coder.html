@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cesar coder</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Cesar coder</h1>
+        <form>
+            <label for="code-shift">Сode shift (max 9)</label>
+            <input type="number" id="code-shift" maxlength="1" value="1">
+
+            <div class="row">
+                <div class="col left">
+                    <textarea id="source" rows="20"></textarea>
+                </div>
+                <div class="action-buttons">
+                    <button type="button" id="encode" title="Encode">&gt;</button>
+                    <button type="button" id="decode" title="Decode">&lt;</button>
+                </div>
+                <div class="col right">
+                    <textarea id="destination" rows="20"></textarea>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="cesar-coder.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+label {
+    margin-right: 10px;
+}
+
+textarea, input {
+    border: 1px solid darkgrey;
+    padding: 5px;
+}
+
+#container {
+    width: 900px;
+    margin: 100px auto 0;
+}
+
+#source,
+#destination {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+}
+
+.row {
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+    padding-right: 12px;
+}
+
+.col {
+    float: left;
+    width: 45.4%;
+}
+
+.col.right {
+    float: right;
+}
+
+.action-buttons {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50px;
+    margin: -55px 0 0 -25px;
+}
+
+.action-buttons button {
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+}
